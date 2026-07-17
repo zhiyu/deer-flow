@@ -1,6 +1,7 @@
 {
   "mcpInterceptors": [
-    "my_package.mcp.auth:build_auth_interceptor"
+    "my_package.mcp.auth:build_auth_interceptor",
+    "deerflow.mcp.connector_interceptor:build_connector_alias_interceptor"
   ],
   "mcpServers": {
     "connectors": {
